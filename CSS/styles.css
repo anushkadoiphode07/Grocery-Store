@@ -1,0 +1,761 @@
+/* Navigation-Bar */
+
+.bgcolor.scrolled {
+    background-color: #E1F1DD;
+    /* height: 65px; */
+}
+
+.navbar {
+    position: fixed;
+    z-index: 10;
+    background-color: transparent ;
+    width: 100%;
+}
+
+.navbar-logo {
+    height: 60px;
+    width:130px;
+}
+
+.nav-text.scrolled {
+    color: black;
+}
+
+.nav-item {
+    margin: 0 15px;
+    
+}
+
+.nav-text {
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home {
+    margin-left: 400px;
+}
+
+.dropdown-menu {
+    opacity: 0.8;
+}
+
+.logo{
+    margin-left: 30px;
+    color:#a1cd3b;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+/* Part-One */
+
+.c1 {
+    position: relative;
+}
+
+.carousel-control-prev {
+    color: #a1cd3b;
+}
+
+.inner1 {
+    position: relative;
+}
+
+body
+{
+    background-color: #fff;
+}
+
+.img-content {
+   color: #a1cd3b;
+   margin-bottom: 160px;
+   animation: bar 3s;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   font-size: 72px;
+}
+
+.img-head {
+    font-size: 65px;
+}
+
+.img-btn {
+    height: 50px;
+    width: 200px;
+    border-color: #a1cd3b;
+    border-width: 3px;
+    color: #a1cd3b;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.img-btn:hover {
+    background-color: black;
+    border-color: black;
+    color: #a1cd3b;
+}
+
+@keyframes bar
+{
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 23%;
+  }
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1.5, 1.5);
+    }
+    
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+.part-one {
+    background-color: black;
+}
+.top-img {
+    height: 570px;
+    bottom: 10;
+    opacity: 0.5;
+    animation: zoom-in-zoom-out 10s ease-out;
+}
+
+/* Part-Two */
+
+.div1 {
+    margin-left: 160px;
+    text-align: right;
+}
+
+.div2 {
+    margin-top: 50px;
+    margin-left: 160px;
+    text-align: right;
+}
+
+.div3 {
+    margin-right: 160px;
+    text-align: left;
+    padding-right: 0;
+}
+
+.div4 {
+    margin-top: 50px;
+    margin-right: 160px;
+    text-align: left;
+}
+
+.part-two {
+    text-align: center;
+    background-color: #fff;
+    margin-top: 100px;
+}
+
+.part-two-img {
+    height: 202px;
+    width: 332px;
+}
+
+.part-two-text {
+    font-family: 'Nunito';
+    letter-spacing: 3px;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.part-two-text1 {
+    font-family: 'Nunito';
+    color: #66bd43;
+}
+
+.part-two-img1 {
+    height: 50px;
+    width: 50px;
+}
+
+.row1 {
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+
+.row2 {
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Part-Three */
+.cards {
+    height: 190px;
+    width: 200px;
+    border-radius: 0%;
+    border-color: #fff;
+}
+
+.head-three {
+    margin-top: 0;
+    font-family: 'Nunito';
+    letter-spacing: 3px;
+   
+}   
+
+.img-part3 {
+    margin-top: 30px;
+}
+
+.part-three1 {
+    background-color: #fff;
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+.row3 {
+    width: fit-content;
+    padding: 50px 50px 20px 50px;
+    margin: auto;
+}
+
+
+/* .products-div {
+    width:fit;
+    margin: auto;
+} */
+
+.row4 {
+    width: fit-content;
+    padding: 0px 50px 20px 50px;
+    margin: auto;
+}
+
+.row5 {
+    width: fit-content;
+    padding: 0px 50px 0 50px;
+    margin: auto;
+}
+
+.sunflower {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.cards-text {
+    margin-top: 40px;
+    font-size: large;
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+
+.cards-img {
+    opacity: 0.2;
+    height: 190px;
+    width: 200px;
+}
+
+.cards:hover {
+   .cards-img {
+    opacity:0.8;
+   }
+    
+}
+
+
+
+/* Part-Four */
+.part-four {
+    text-align: center;
+    margin-top: 100px;
+    height: 500px;
+    width: 100%;
+}
+
+.part-four-text {
+    margin-bottom: 0px;
+    font-family: 'Nunito';
+    letter-spacing: 3px;
+}
+
+.card-img-top {
+    height:180px;
+}
+
+.cards-brand {
+    padding-bottom: 3px;
+}
+.row6 {
+    margin: auto;
+    margin-top: 50px;
+    width: fit-content;
+    margin-bottom: 0;
+}
+
+/* Part-Seven  */
+.part-seven-text {
+    font-family: 'Nunito';
+    
+}
+
+.part-seven-text1 {
+    font-family: 'Nunito';
+    padding: 10px;
+}
+.part-seven-div {
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    padding-top: 0;
+}
+
+.reviews {
+    text-align: center;
+}
+
+/* Part-Five */
+
+.part-five {
+    background-color: #FDFAF6;
+   
+}
+
+.part-five-logo {
+    height: 114px;
+    width: 300px;
+}
+
+.part-five-logo-div {
+    margin-top: 5px;
+}
+
+.row8 {
+    width: fit-content;
+    margin: 20px auto 0;
+    padding-top: 50px;
+}
+
+
+/* Part-Six */
+.part-six {
+    text-align: center;
+    background-color: #FDFAF6;
+    padding-top: 100px;
+}
+
+.social-icon {
+    margin: 30px 20px;
+}
+
+.last-text {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Products */
+
+.div1 {
+    margin-left: 160px;
+    text-align: right;
+}
+
+.div2 {
+    margin-top: 50px;
+    margin-left: 160px;
+    text-align: right;
+}
+
+.div3 {
+    margin-right: 160px;
+    text-align: left;
+    padding-right: 0;
+}
+
+.div4 {
+    margin-top: 50px;
+    margin-right: 160px;
+    text-align: left;
+}
+
+.row1 {
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+
+.row2 {
+    width: fit-content;
+    margin: auto;
+}
+
+.nav-item {
+    background-color: none;
+    margin: 0 15px;
+}
+
+.part-two {
+    text-align: center;
+}
+
+.part-two-img {
+    height: 202px;
+    width: 332px;
+}
+
+.part-two-text {
+    letter-spacing: 3px;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.part-two-text1 {
+    font-family: 'Nunito';
+    color: #66bd43;
+}
+
+.part-two-img1 {
+    height: 50px;
+    width: 50px;
+}
+
+.row2 {
+    margin-top: 50px;
+}
+
+/* Part Four CSS */
+/* Part-Five */
+
+
+.four-cards {
+    background-color: #e9ecef;
+    height: 260px;
+    width: 240px;
+    border-radius: 0%;
+    margin:20px;
+}
+
+.five-text {
+    color: #fff;
+    margin-right:750px;
+    padding-top: 100px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+}
+
+.icon-text1 {
+    color: #f2cd56;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 0%;
+    padding-bottom:0%;
+}
+
+.icon-text2 {
+    margin-top:0;
+    padding: 0%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+
+.row7 {
+    width: fit-content;
+    margin:auto;
+    padding-top: 40px;
+
+}
+
+
+/* Part Five */
+
+.part-five {
+    padding-top: 50px;
+    width: 100%;
+}
+.part-five-logo {
+    height: 114px;
+    width: 300px;
+   
+    
+}
+
+.contact-info {
+    padding-top: 10px;
+}
+
+.part-five-logo-div {
+    margin-top: 5px;
+    padding-right: 150px;
+}
+
+/* Part Six */
+.part-six {
+    text-align: center;
+    width: 100%;;
+}
+
+h6,a,p {
+    display: inline-block;
+}
+.last-text {
+    display: inline-block;
+}
+
+.social-icon {
+    margin: 30px 20px;
+}
+
+/* Cereals and Grains Page */
+/* Cereals and Grain Part One */
+.cereals-grains-img1 {
+    height: 480px;
+    width: 100%;
+    opacity: 0.3;
+}
+
+.cereals-grains-one {
+    background-color: black;
+    height: 480px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cereals-grains-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 200px auto 0;
+    text-align: center;
+    color: #fff;
+}
+
+/* Cereals and Grain Part Two */
+.card {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+    
+
+
+.card:hover {
+    box-shadow: 3px 3px 3px 3px #e9ecef;
+    transform: scale(1.05);
+}
+
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 100%;
+}
+
+
+
+.cereals-grains-card-img {
+    height: 300px;
+    width: 100%;
+}
+
+.cereals-grains-row1 {
+    margin: 80px 0;
+}
+
+/* Modal */
+.modal-button {
+    letter-spacing: 2px;
+}
+
+.modal-img {
+    width: 371px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+/* Brands */
+
+.brands-img {
+    height: 300px;
+    width: 100px;
+    text-align: center;
+    
+}
+
+
+
+
+@media (max-width: 650px) {
+    .cards-brand {
+        height: 165px;
+        padding: 6px;
+        border: none;
+    }
+    .cards-div {
+        width: fit-content;
+        margin: auto;
+        padding: 0;
+    }
+    .cards {
+        width: 350px;
+        margin: 0;
+        padding: 0;
+    }
+    .cards-img {
+        width: 350px;
+        margin: 0;
+        padding: 0;
+    }
+    .row3 {
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+        /* margin-left: 35px;
+        margin-right: 0; */
+    }
+    .row4 {
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+        /* margin-left: 35px;
+        margin-right: 0; */
+    }
+    .row5 {
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+        /* margin-left: 35px;
+        margin-right: 0; */
+    }
+    .row8 {
+        width: fit-content;
+        margin: 10px auto 0;
+        padding-top: 20px;
+    }
+    .part-three1 {
+        width: fit-content;
+    }
+    .part-five-logo-div {
+        margin-top: 20px;
+     }
+    .part-seven {
+        margin-top: 20px;
+        text-align: center;
+    }  
+    .reviews {
+        margin-top: 600px;
+    }
+    
+    .contact-info {
+        margin-left: 30px;
+        width: fit-content;
+     }
+     .address-info {
+        margin-left: 30px;
+        width: fit-content;
+     }
+     .home {
+        margin-left: 0;
+     }
+     .cards-brand {
+        margin-bottom: 50px;
+     }
+  }
+
+  @media (max-width: 400px) {
+    .img-content {
+        color: #a1cd3b;
+        margin-bottom: 150px;
+        animation: bar 3s;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 10px;
+     }
+     
+     .img-head {
+         font-size: 40px;
+     }
+     
+     .img-btn {
+         height: 40px;
+         width: 150px;
+         border-color: #a1cd3b;
+         border-width: 3px;
+         color: #a1cd3b;
+         font-family: 'Open Sans', sans-serif;
+     }
+     .part-five-logo-div {
+        margin-top: 20px;
+        width: fit-content;
+        padding: 0%;
+     }
+     .contact-info {
+        margin-left: 30px;
+        width: fit-content;
+       
+     }
+     .address-info {
+        margin-left: 30px;
+        width: fit-content;
+     }
+     .part-five {
+        width: fit-content;
+     }
+     .home {
+        margin-left: 0;
+     }
+     .reviews {
+        margin-top: 600px;
+     }
+     .cards-brand {
+        margin-bottom: 50px;
+     }
+    
+  }
+
+  @media (max-width:1018px) and (min-width:401px) {
+    .img-content {
+        color: #a1cd3b;
+        margin-bottom: 100px;
+        animation: bar 3s;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 50px;
+     }
+     
+     .img-head {
+         font-size: 50px;
+     }
+     
+     .img-btn {
+         height: 60px;
+         width: 150px;
+         border-color: #a1cd3b;
+         border-width: 3px;
+         color: #a1cd3b;
+         font-family: 'Open Sans', sans-serif;
+     }
+     .part-five-logo-div {
+        margin-top: 30px;
+     }
+     .contact-info {
+        margin-left: 30px;
+     }
+     .address-info {
+        margin-left: 30px;
+     }
+     .home {
+        margin-left: 0px;
+     }
+     .last-text {
+       margin-left: 15px;
+     }
+    
+  }
